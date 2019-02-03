@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282755197831F64B06ADC064 /* Pods_ZigZagExamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B217EBAA8EE22F716F5D54A3 /* Pods_ZigZagExamTests.framework */; };
 		49237814220675B90038CD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237813220675B90038CD98 /* AppDelegate.swift */; };
-		49237816220675B90038CD98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237815220675B90038CD98 /* ViewController.swift */; };
 		49237819220675B90038CD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49237817220675B90038CD98 /* Main.storyboard */; };
 		4923781B220675BB0038CD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4923781A220675BB0038CD98 /* Assets.xcassets */; };
 		4923781E220675BB0038CD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923781C220675BB0038CD98 /* LaunchScreen.storyboard */; };
 		49237829220675BB0038CD98 /* ZigZagExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237828220675BB0038CD98 /* ZigZagExamTests.swift */; };
 		49237834220675BB0038CD98 /* ZigZagExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237833220675BB0038CD98 /* ZigZagExamUITests.swift */; };
+		49237842220675E60038CD98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237841220675E60038CD98 /* MainViewController.swift */; };
+		4923784E2206849A0038CD98 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923784A2206849A0038CD98 /* WebAPI.swift */; };
+		492378532206851F0038CD98 /* VenuesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492378522206851F0038CD98 /* VenuesAPI.swift */; };
+		49237855220685CC0038CD98 /* VenuesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237854220685CC0038CD98 /* VenuesService.swift */; };
+		49237858220687930038CD98 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49237857220687930038CD98 /* Venue.swift */; };
+		4923785A2206AA7B0038CD98 /* MainViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492378592206AA7B0038CD98 /* MainViewTableViewController.swift */; };
+		4923785C2206B8BF0038CD98 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4923785B2206B8BF0038CD98 /* CoreLocation.framework */; };
+		4923785F2206BC940038CD98 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923785E2206BC940038CD98 /* DetailsViewController.swift */; };
+		492378622206BFA90038CD98 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492378612206BFA90038CD98 /* DetailsView.swift */; };
+		492378642206E1200038CD98 /* WebApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492378632206E1200038CD98 /* WebApiError.swift */; };
+		492378662206E1410038CD98 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492378652206E1410038CD98 /* Response.swift */; };
+		923D42BD44FCE8933474C217 /* Pods_ZigZagExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1527C30EC49755A6E79FDE0 /* Pods_ZigZagExam.framework */; };
+		D5706A0BCEEFD32E4F16704B /* Pods_ZigZagExamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F733F08F0D1F6CEFCEA8D0EF /* Pods_ZigZagExamUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AA4006B449D2FD36E0119CA /* Pods-ZigZagExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagExam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagExam/Pods-ZigZagExam.release.xcconfig"; sourceTree = "<group>"; };
+		2F9D702A0C0F6F14065BBAA8 /* Pods-ZigZagExamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagExamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagExamTests/Pods-ZigZagExamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32B3D1EF0CA82282A391E5BD /* Pods-ZigZagExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagExamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagExamTests/Pods-ZigZagExamTests.release.xcconfig"; sourceTree = "<group>"; };
+		3792730AA8410B17F468C7C4 /* Pods-ZigZagExamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagExamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagExamUITests/Pods-ZigZagExamUITests.release.xcconfig"; sourceTree = "<group>"; };
 		49237810220675B90038CD98 /* ZigZagExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigZagExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49237813220675B90038CD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49237815220675B90038CD98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49237818220675B90038CD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4923781A220675BB0038CD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4923781D220675BB0038CD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,22 @@
 		4923782F220675BB0038CD98 /* ZigZagExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZagExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49237833220675BB0038CD98 /* ZigZagExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagExamUITests.swift; sourceTree = "<group>"; };
 		49237835220675BB0038CD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49237841220675E60038CD98 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4923784A2206849A0038CD98 /* WebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
+		492378522206851F0038CD98 /* VenuesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesAPI.swift; sourceTree = "<group>"; };
+		49237854220685CC0038CD98 /* VenuesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesService.swift; sourceTree = "<group>"; };
+		49237857220687930038CD98 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		492378592206AA7B0038CD98 /* MainViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTableViewController.swift; sourceTree = "<group>"; };
+		4923785B2206B8BF0038CD98 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4923785E2206BC940038CD98 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		492378612206BFA90038CD98 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		492378632206E1200038CD98 /* WebApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebApiError.swift; sourceTree = "<group>"; };
+		492378652206E1410038CD98 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		B217EBAA8EE22F716F5D54A3 /* Pods_ZigZagExamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZigZagExamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53CE1ADEB3CDF1089C9ED8B /* Pods-ZigZagExamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagExamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagExamUITests/Pods-ZigZagExamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1527C30EC49755A6E79FDE0 /* Pods_ZigZagExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZigZagExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99CB47BD097A623D9A0DAD1 /* Pods-ZigZagExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagExam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagExam/Pods-ZigZagExam.debug.xcconfig"; sourceTree = "<group>"; };
+		F733F08F0D1F6CEFCEA8D0EF /* Pods_ZigZagExamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZigZagExamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4923785C2206B8BF0038CD98 /* CoreLocation.framework in Frameworks */,
+				923D42BD44FCE8933474C217 /* Pods_ZigZagExam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282755197831F64B06ADC064 /* Pods_ZigZagExamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +103,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5706A0BCEEFD32E4F16704B /* Pods_ZigZagExamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E73BF452945C39F3578C202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E99CB47BD097A623D9A0DAD1 /* Pods-ZigZagExam.debug.xcconfig */,
+				1AA4006B449D2FD36E0119CA /* Pods-ZigZagExam.release.xcconfig */,
+				2F9D702A0C0F6F14065BBAA8 /* Pods-ZigZagExamTests.debug.xcconfig */,
+				32B3D1EF0CA82282A391E5BD /* Pods-ZigZagExamTests.release.xcconfig */,
+				C53CE1ADEB3CDF1089C9ED8B /* Pods-ZigZagExamUITests.debug.xcconfig */,
+				3792730AA8410B17F468C7C4 /* Pods-ZigZagExamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49237807220675B90038CD98 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,8 @@
 				49237827220675BB0038CD98 /* ZigZagExamTests */,
 				49237832220675BB0038CD98 /* ZigZagExamUITests */,
 				49237811220675B90038CD98 /* Products */,
+				3E73BF452945C39F3578C202 /* Pods */,
+				E5CFD024438FEB1E49D3968A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +148,15 @@
 		49237812220675B90038CD98 /* ZigZagExam */ = {
 			isa = PBXGroup;
 			children = (
+				492378602206BF9C0038CD98 /* Views */,
+				49237856220687580038CD98 /* Models */,
+				49237843220678620038CD98 /* WebServices */,
 				49237813220675B90038CD98 /* AppDelegate.swift */,
-				49237815220675B90038CD98 /* ViewController.swift */,
 				49237817220675B90038CD98 /* Main.storyboard */,
 				4923781A220675BB0038CD98 /* Assets.xcassets */,
 				4923781C220675BB0038CD98 /* LaunchScreen.storyboard */,
 				4923781F220675BB0038CD98 /* Info.plist */,
+				4923785D2206BC5C0038CD98 /* ViewControllers */,
 			);
 			path = ZigZagExam;
 			sourceTree = "<group>";
@@ -125,6 +179,55 @@
 			path = ZigZagExamUITests;
 			sourceTree = "<group>";
 		};
+		49237843220678620038CD98 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				492378652206E1410038CD98 /* Response.swift */,
+				492378632206E1200038CD98 /* WebApiError.swift */,
+				4923784A2206849A0038CD98 /* WebAPI.swift */,
+				492378522206851F0038CD98 /* VenuesAPI.swift */,
+				49237854220685CC0038CD98 /* VenuesService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		49237856220687580038CD98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49237857220687930038CD98 /* Venue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4923785D2206BC5C0038CD98 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49237841220675E60038CD98 /* MainViewController.swift */,
+				492378592206AA7B0038CD98 /* MainViewTableViewController.swift */,
+				4923785E2206BC940038CD98 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		492378602206BF9C0038CD98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				492378612206BFA90038CD98 /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5CFD024438FEB1E49D3968A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4923785B2206B8BF0038CD98 /* CoreLocation.framework */,
+				D1527C30EC49755A6E79FDE0 /* Pods_ZigZagExam.framework */,
+				B217EBAA8EE22F716F5D54A3 /* Pods_ZigZagExamTests.framework */,
+				F733F08F0D1F6CEFCEA8D0EF /* Pods_ZigZagExamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49237838220675BB0038CD98 /* Build configuration list for PBXNativeTarget "ZigZagExam" */;
 			buildPhases = (
+				A6EBDE62AF66E886D129BC3A /* [CP] Check Pods Manifest.lock */,
 				4923780C220675B90038CD98 /* Sources */,
 				4923780D220675B90038CD98 /* Frameworks */,
 				4923780E220675B90038CD98 /* Resources */,
+				7B8AE1194CF8A3D23CF8898E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4923783B220675BB0038CD98 /* Build configuration list for PBXNativeTarget "ZigZagExamTests" */;
 			buildPhases = (
+				AE6323B6DA69255CFA22B180 /* [CP] Check Pods Manifest.lock */,
 				49237820220675BB0038CD98 /* Sources */,
 				49237821220675BB0038CD98 /* Frameworks */,
 				49237822220675BB0038CD98 /* Resources */,
@@ -167,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4923783E220675BB0038CD98 /* Build configuration list for PBXNativeTarget "ZigZagExamUITests" */;
 			buildPhases = (
+				6963F3E118EC0B715777F10D /* [CP] Check Pods Manifest.lock */,
 				4923782B220675BB0038CD98 /* Sources */,
 				4923782C220675BB0038CD98 /* Frameworks */,
 				4923782D220675BB0038CD98 /* Resources */,
@@ -193,6 +300,11 @@
 				TargetAttributes = {
 					4923780F220675B90038CD98 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					49237823220675BB0038CD98 = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,13 +363,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6963F3E118EC0B715777F10D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZigZagExamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8AE1194CF8A3D23CF8898E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZigZagExam/Pods-ZigZagExam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZigZagExam/Pods-ZigZagExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6EBDE62AF66E886D129BC3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZigZagExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6323B6DA69255CFA22B180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZigZagExamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4923780C220675B90038CD98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49237816220675B90038CD98 /* ViewController.swift in Sources */,
 				49237814220675B90038CD98 /* AppDelegate.swift in Sources */,
+				4923785F2206BC940038CD98 /* DetailsViewController.swift in Sources */,
+				492378532206851F0038CD98 /* VenuesAPI.swift in Sources */,
+				492378622206BFA90038CD98 /* DetailsView.swift in Sources */,
+				492378642206E1200038CD98 /* WebApiError.swift in Sources */,
+				49237858220687930038CD98 /* Venue.swift in Sources */,
+				4923785A2206AA7B0038CD98 /* MainViewTableViewController.swift in Sources */,
+				492378662206E1410038CD98 /* Response.swift in Sources */,
+				4923784E2206849A0038CD98 /* WebAPI.swift in Sources */,
+				49237855220685CC0038CD98 /* VenuesService.swift in Sources */,
+				49237842220675E60038CD98 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +636,14 @@
 		};
 		49237839220675BB0038CD98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99CB47BD097A623D9A0DAD1 /* Pods-ZigZagExam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 52MN2UA45R;
+				DEVELOPMENT_TEAM = 8BAXE5Z2WU;
 				INFOPLIST_FILE = ZigZagExam/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emr.sample.ZigZagExam;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emr.ZigZagExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,16 +652,14 @@
 		};
 		4923783A220675BB0038CD98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA4006B449D2FD36E0119CA /* Pods-ZigZagExam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 52MN2UA45R;
+				DEVELOPMENT_TEAM = 8BAXE5Z2WU;
 				INFOPLIST_FILE = ZigZagExam/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emr.sample.ZigZagExam;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emr.ZigZagExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,17 +668,14 @@
 		};
 		4923783C220675BB0038CD98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9D702A0C0F6F14065BBAA8 /* Pods-ZigZagExamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52MN2UA45R;
 				INFOPLIST_FILE = ZigZagExamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emr.sample.ZigZagExamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -487,17 +686,14 @@
 		};
 		4923783D220675BB0038CD98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B3D1EF0CA82282A391E5BD /* Pods-ZigZagExamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52MN2UA45R;
 				INFOPLIST_FILE = ZigZagExamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emr.sample.ZigZagExamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -508,16 +704,13 @@
 		};
 		4923783F220675BB0038CD98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C53CE1ADEB3CDF1089C9ED8B /* Pods-ZigZagExamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52MN2UA45R;
 				INFOPLIST_FILE = ZigZagExamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emr.sample.ZigZagExamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -528,16 +721,13 @@
 		};
 		49237840220675BB0038CD98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3792730AA8410B17F468C7C4 /* Pods-ZigZagExamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52MN2UA45R;
 				INFOPLIST_FILE = ZigZagExamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emr.sample.ZigZagExamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
