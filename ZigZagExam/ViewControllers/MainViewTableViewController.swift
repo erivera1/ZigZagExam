@@ -54,7 +54,6 @@ class MainViewTableViewController: UITableViewController {
                 destinationVC.venue = venue
             }
         }
-        
     }
 
 }

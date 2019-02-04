@@ -41,39 +41,10 @@ class VenuesAPI: WebApi {
                                 address = "\(address) \(format)"
                             }
                         }
-//                        let categoryArray = venue["categories"] as! NSArray
-//                        var stringCategory = ""
-//                        var stringIcon = ""
-//                        if categoryArray.count > 0{
-//                            let category = categoryArray[0] as! NSDictionary
-//                            guard let cat = category["name"] else{
-//                                return
-//                            }
-//                            stringCategory = cat as! String
-//
-//                            guard let icon = category["icon"] else{
-//                                return
-//                            }
-//                            let iconDict = icon as! NSDictionary
-//                            guard let prefix = iconDict["prefix"] else{
-//                                return
-//                            }
-//                            guard let suffix = iconDict["suffix"] else{
-//                                return
-//                            }
-//                            stringIcon = "\(prefix)bg_64\(suffix)"
-//                        }
-//                        else{
-//                            stringIcon = ""
-//                            stringCategory = "No Category"
-//                        }
-                        
                         myVenue.id = venue["id"] as! String
                         myVenue.name = venue["name"] as! String
                         myVenue.address = address
-//                        myVenue.category = stringCategory
                         myVenue.distance = location["distance"] as! Int
-//                        myVenue.icon = stringIcon
                         venuesArray.append(myVenue)
                     }
                     onSuccess(venuesArray)
