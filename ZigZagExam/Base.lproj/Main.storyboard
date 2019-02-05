@@ -92,7 +92,6 @@
                         <constraints>
                             <constraint firstItem="23Y-Ix-63m" firstAttribute="top" secondItem="fep-fB-rIO" secondAttribute="top" id="9fh-9X-XD4"/>
                             <constraint firstItem="biA-Qq-r4M" firstAttribute="leading" secondItem="fep-fB-rIO" secondAttribute="leading" id="B8e-1F-mWF"/>
-                            <constraint firstItem="qtS-d2-3pL" firstAttribute="height" secondItem="23Y-Ix-63m" secondAttribute="height" constant="-3" id="Ish-Hd-SF8"/>
                             <constraint firstItem="biA-Qq-r4M" firstAttribute="height" secondItem="fep-fB-rIO" secondAttribute="height" constant="3" id="MsT-Pg-YU2"/>
                             <constraint firstItem="qtS-d2-3pL" firstAttribute="leading" secondItem="23Y-Ix-63m" secondAttribute="leading" id="O0L-58-j3Z"/>
                             <constraint firstItem="biA-Qq-r4M" firstAttribute="width" secondItem="fep-fB-rIO" secondAttribute="width" id="PKi-NU-kYy"/>
